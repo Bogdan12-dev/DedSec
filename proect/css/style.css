@@ -6,13 +6,11 @@
 @media(min-width:320px){
   footer{
     background-color: #222222;
-    width: 320px;
-    height: 500px;
+  
 }
 .box{
     background-color: #151515;
-    width: 320px;
-    height: 200px;
+    
 }
 .logo{
     margin: 43px 155px 0px 65px;
@@ -86,13 +84,13 @@
 @media(min-width: 768px){
 footer{
     background-color: #222222;
-    width: 768px;
-    height: 255px;
+    /* width: 768px;
+    height: 255px; */
 }
 .box{
     background-color: #151515;
-    width: 768px;
-    height: 49px;
+    /* width: 768px;
+    height: 49px; */
 }
 .logo{
     margin: 55px 589px 0px 72px;
@@ -158,16 +156,15 @@ footer{
     text-align: left;
 }
 
-@media(max-width: 1920px){
+@media(min-width: 1300px){
 footer{
     background-color: #222222;
-    width: 1920px;
-    height: 350px;
+    /* width: 1920px;
+    height: 350px; */
 }
 .box{
     background-color: #151515;
-    width: 1920px;
-    height: 49px;
+    
 }
 .logo{
     margin: 55px 1504px 0px 309px;
@@ -186,7 +183,7 @@ footer{
 }
 .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   
 }
 .button{
@@ -198,14 +195,16 @@ footer{
     height: 40px;
     color: #f6f9fa;
     justify-content: right;
-    margin: 29px 0px 119px 178px;
+    margin: 29px 0px 0px 100px;
 }
 .knopki{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-left: 0px;
+    
 }
 .button1{
-    margin: 29px 0px 108px 180px;
+    margin: 29px 0px 108px 140px;
 }
 .button2{
     margin: 29px 0px 108px 20px;
@@ -238,19 +237,6 @@ footer{
     color: rgba(98, 98, 99, 255);
     text-align: left;
     
-}
-.to-page-nav {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    width: 60px;
-    height: 60px; 
-    border-radius: 50%;
-    background-color: #333333;
 }
 }
 
