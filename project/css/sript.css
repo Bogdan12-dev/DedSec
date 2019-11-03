@@ -1,0 +1,255 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media(min-width:320px){
+    .section{
+        width: 84%;
+        margin-left: 8%;
+        justify-content: center;
+    }
+
+    
+
+    .part2{
+        background-color: #7550de;
+        height: 180px;
+        width: 70%;
+    }
+
+    .part1{
+        
+        width: 84%;
+    }
+
+    .tekst3{
+        color: #d6cef4;
+
+    }
+
+    .xz{
+        width: 100px;
+        height: 2px;
+        background-color: #e9ac38;
+        color: #d6cef4;
+        margin-top: 30px;
+        display: inline-block;
+        margin-left: 35%;
+    }
+
+    .tekst1{
+        color: #464646;
+        width: 84%;
+        font-size: 14px;
+        text-align: left;
+    }
+    .tekst2{
+        color: #464646;
+        width: 84%;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .image1{
+        width: 84%;
+
+    }
+
+    .images1{
+        width: 100%;
+    }
+    .tekst1::before{
+        content: "“";
+        font-size: 60px;
+        color: #e9ac38;
+    }
+
+    .tekst3::before{
+        width: 60px;
+        height: 2px;
+        background-color: #e9ac38;
+        color: #d6cef4;
+        
+    }
+}
+
+
+@media(min-width:768px){
+    .section{
+        width: 621px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .xz{
+        width: 4px;
+        height: 100px;
+        background-color: #e9ac38;
+        color: #d6cef4;
+        margin-top: 30px;
+        display: inline-block;
+        margin-right: 24px;
+        margin-left: 78px;
+    }
+
+    .part2{
+        background-color: #7550de;
+        height: 30%;
+        width: 80%;
+    }
+
+    .part1{
+        
+        width: 80%;
+
+        
+    }
+
+    .tekst3{
+        color: #d6cef4;
+        width: 90%;
+        height: 99px;
+        display: inline-block;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .tekst1{
+        color: #464646;
+        width: 90%;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 0;
+    }
+    .tekst2{
+        color: #464646;
+        width: 80%;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .tekst12{
+        display: inline-block;
+        width: 100%;
+        
+        margin-top: 10%;
+    }
+
+    .image1{
+        width: 100%;
+        left: 10%;
+        margin-top: 6%;
+        margin-bottom: 50px;
+    }
+    .tekst1::before{
+        content: "“";
+        font-size: 60px;
+        color: #e9ac38;
+    }
+
+    .images1{
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+
+    .bluebord{
+        justify-content: flex;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    
+}
+
+@media(min-width:1300px){
+    .section{
+        width: 68%;
+    }
+
+    .xz{
+        width: 2px;
+        height: 87px;
+        background-color: #e9ac38;
+        color: #d6cef4;
+        margin-top: 30px;
+        display: inline-block;
+        margin-right: 24px;
+        margin-left: 78px;
+    }
+
+    .part2{
+        background-color: #7550de;
+        height: 15%;
+        width: 68%;
+
+        
+    }
+
+    .part1{
+        display: flex;
+        justify-content: space-around;
+        width: 91%;
+        flex-direction: row-reverse;
+    }
+
+    .tekst3{
+        color: #d6cef4;
+        width: 54%;
+        height: 30px;
+        display: inline-block;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .tekst1{
+        color: #464646;
+        width: 100%;
+        font-size: 20px;
+        text-align: left;
+        
+        
+    }
+    .tekst2{
+        color: #464646;
+        width: 100%;
+        font-size: 20px;
+        text-align: left;
+        
+    }
+
+    .tekst12{
+        display: inline-block;
+        width: 26%;
+        left: 56%;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+
+    .image1{
+        width: 34%;
+        display: inline-block;
+
+
+        
+    }
+    .tekst1::before{
+        content: "“";
+        font-size: 90pt;
+        color: #e9ac38;
+        
+    }
+
+    .images1{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+}
