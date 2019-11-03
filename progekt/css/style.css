@@ -69,14 +69,19 @@ margin: auto;
     }
     .box{
         width: 300px;
+        
     }
 }
 
 @media(min-width:1300px){
     .container{
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    .box{
+        width: 250px;
+        margin: 40px;
     }
 }
 
@@ -164,25 +169,24 @@ align-items: center;
 .title-pic{
     background-size: cover;
     background-color: orange;
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 5px;
-    left: 20px;
-    margin-right: 40px;
+   align-items: center;
+   
+   
+    
 }
 
 .text{
     width: 70%;
 }
 
-.box{
-    box-sizing: inherit;
-    margin-left: 50px;
+.pic-title{
+    width: 20px;
+    height: 20px;
 }
 
 
